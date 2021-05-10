@@ -1,4 +1,4 @@
-from calculadora import *
+from app import *
 
 def test_suma():
     assert suma(3, 6) == 9
