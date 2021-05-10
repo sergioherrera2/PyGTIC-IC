@@ -4,7 +4,3 @@ services:
     image: jleetutorial/pygtic
     ports:
       - '5000:5000'
-    depends_on:
-      - redis
-  redis:
-    image: redis:3.2.0
