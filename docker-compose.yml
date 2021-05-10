@@ -1,6 +1,6 @@
 version: '2.0'
 services:
-  dockerizando:
+  pygtic:
     build: .
     ports:
       - '5000:5000'

@@ -1,7 +1,7 @@
 version: '3.0'
 services:
-  dockerizando:
-    image: jleetutorial/dockerizando
+  pygtic:
+    image: jleetutorial/pygtic
     ports:
       - '5000:5000'
     depends_on:

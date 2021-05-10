@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: /dockerizando
+    working_directory: /pygtic
     docker:
       - image: docker:17.05.0-ce-git
     steps:
@@ -16,4 +16,4 @@ jobs:
           name: Run tests
           command: |
             docker-compose up -d
-            docker-compose run dockerizando python test.py
+            docker-compose run pygtic python test.py
